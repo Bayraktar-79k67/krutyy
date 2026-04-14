@@ -1,0 +1,51 @@
+body{
+background-image: url(https://thisgengaming.com/wp-content/uploads/2017/07/uncharted-2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 150px; ;
+text-align: center;
+}
+nav{
+font-weight: bold;
+color: rgb(8, 31, 12);
+background-color:rgb(64, 154, 192) ;
+font-size: 30px;
+text-align: center;
+font-family: Arial;
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+}
+header{
+color: rgb(3, 19, 40);
+background-color: rgb(64, 154, 192);
+text-align: center;
+font-size: 50px;
+font-weight: bolder;
+height: 100px;
+width: auto;
+font-family:Arial ;
+}
+h4{
+color: rgb(43, 55, 40);
+background-color: rgba(22, 194, 228, 0.579);
+border: 3px solid rgba(1, 30, 42, 0.442);
+border-radius: 10px;}
+h1{
+color: rgb(46, 132, 150);
+font-family: Arial;
+font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 19, 40);
+}
+
+
+
+
+
+
+
+
+
