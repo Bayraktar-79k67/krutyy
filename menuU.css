@@ -1,7 +1,8 @@
 body{
 background-image: url(https://www.igroshop.com/images/companies/1/Uncharted%20PC%20Sc2.jpg?1666240533801);
 background-size:cover;
-
+margin: 0;
+padding: 0;
 height: 150px; 
 }
 header{
@@ -13,11 +14,12 @@ font-weight: bolder;
 height: 100px;
 width: auto;
 font-family:Arial ;
+
 }
 footer{
 color:rgb(136, 113, 71) ;
 font-size: 13px;
-background-color: rgb(255, 215, 142);
+background-color: rgba(255, 215, 142, 0.626);
 font-weight: bold;
 }
 nav{
@@ -33,9 +35,15 @@ justify-content: space-around;
 a{
 text-decoration: none;
 color: black;
-
 }
-
+footer{
+    position: absolute;
+background-color: rgb(255, 215, 142);
+height: 60px;
+width: 100%;
+bottom: 0;
+text-align: center;
+}
 
 
 

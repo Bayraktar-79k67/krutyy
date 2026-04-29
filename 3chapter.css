@@ -1,9 +1,11 @@
 body{
 background-image: url(https://assets.altarofgaming.com/wp-content/uploads/2023/09/uncharted-3-drakes-deception-game-cover-altar-of-gaming.png);
 background-size: cover;
-background-repeat: no-repeat;
+background-repeat:repeat-y;
 height: 150px; ;
 text-align: center;
+margin: 0;
+padding: 0;
 }
 nav{
 font-weight: bold;
@@ -27,7 +29,7 @@ width: auto;
 font-family:Arial ;
 }
 h4{
-color: rgb(167, 112, 34);
+color: rgb(58, 37, 8);
 background-color: rgba(194, 136, 29, 0.579);
 border: 3px solid rgba(57, 44, 2, 0.442);
 border-radius: 10px;}

@@ -4,6 +4,8 @@ background-size: cover;
 background-repeat: no-repeat;
 height: 150px; ;
 text-align: center;
+margin: 0;
+padding: 0;
 }
 nav{
 font-weight: bold;
@@ -30,7 +32,11 @@ h4{
 color: rgb(43, 55, 40);
 background-color: rgba(22, 194, 228, 0.579);
 border: 3px solid rgba(1, 30, 42, 0.442);
-border-radius: 10px;}
+border-radius: 10px;
+
+left: 500px;
+}
+
 h1{
 color: rgb(46, 132, 150);
 font-family: Arial;
