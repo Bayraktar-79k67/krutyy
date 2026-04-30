@@ -16,12 +16,8 @@ width: auto;
 font-family:Arial ;
 
 }
-footer{
-color:rgb(136, 113, 71) ;
-font-size: 13px;
-background-color: rgba(255, 215, 142, 0.626);
-font-weight: bold;
-}
+
+
 nav{
 font-weight: bold;
 color: black;
@@ -38,11 +34,12 @@ color: black;
 }
 footer{
     position: absolute;
-background-color: rgb(255, 215, 142);
+background-color: rgba(255, 215, 142, 0.855);
+color: rgb(63, 55, 19);
 height: 60px;
 width: 100%;
 bottom: 0;
-text-align: center;
+text-align: left;
 }
 
 

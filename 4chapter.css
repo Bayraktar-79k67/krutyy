@@ -32,7 +32,16 @@ h4{
 color: rgb(2, 17, 21);
 background-color: rgba(10, 95, 111, 0.579);
 border: 3px solid rgba(8, 51, 69, 0.442);
-border-radius: 10px;}
+border-radius: 10px;
+overflow: auto;
+height: 200px;
+width: 1000px;}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1{
 color: rgb(10, 87, 102);
 font-family: Arial;
@@ -42,3 +51,14 @@ a{
     text-decoration: none;
     color: rgb(3, 19, 40);
 }
+::-webkit-scrollbar{
+    background-color: rgba(16, 115, 135, 0.579);}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(28, 189, 217, 0.753);
+    border-radius: 5px;
+   
+}
+
+
+
+

@@ -33,8 +33,10 @@ color: rgb(43, 55, 40);
 background-color: rgba(22, 194, 228, 0.579);
 border: 3px solid rgba(1, 30, 42, 0.442);
 border-radius: 10px;
-
+overflow: auto;
+height: 200px;
 left: 500px;
+width: 900px;
 }
 
 h1{
@@ -46,12 +48,17 @@ a{
     text-decoration: none;
     color: rgb(3, 19, 40);
 }
+::-webkit-scrollbar{
+    background-color: rgba(16, 115, 135, 0.579);}
 
-
-
-
-
-
-
+::-webkit-scrollbar-thumb{
+    background-color: rgba(28, 189, 217, 0.753);
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
