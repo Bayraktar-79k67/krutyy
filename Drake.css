@@ -1,7 +1,11 @@
 body{
     background-color:rgb(34, 80, 87);
+    margin: 0;
+    padding: 0;
+
 
 }
+
 
 .cont{
     display: flex;
